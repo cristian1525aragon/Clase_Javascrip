@@ -110,6 +110,86 @@ console.log(typeof(null));
 
 
 
+let nuevo_nombre = prompt("cual es tu nombre?","" );
+console.log(`hola joven, ${nuevo_nombre}`);
+
+
+let helado = confirm("¿te gusta el helado?");
+console.log(helado);
+
+
+// operaciones básicas 
+
+let a, b, resultado;
+
+a = 5;
+b = 2;
+
+resultado = a + b;
+resultado = a - b;
+resultado = a / b;
+resultado = a * b; 
+resultado = a % b; // mod
+resultado = a ** b; // potencia
+
+// operación unitaria 
+
+
+// Operaciones Unaria -
+
+a = 1;
+console.log(-a);
+
+a = -1;
+console.log(-a);
+
+console.log(-true);
+console.log(-false);
+
+// ASIGNACIONES
+
+a = 2 + 3;
+a = b = c = 2 + 3;
+
+c = 2 + 3;
+b = c;
+a = b;
+
+c = 3 - (a = b + 1);
+
+// Modificadores
+
+a = a + 2;
+a += 2;
+a = a - 2
+a -= 2;
+
+// Incremento y Decremento
+
+// ++ Incremento
+// -- Decremento
+
+a = 2;
+a ++;
+console.log(a); // 3
+
+a = 2;
+a --;
+console.log(a); // 1
+
+// Posición del incremento o decremento
+
+a = 1;
+b = ++ a;
+console.log(b); // 2
+
+a = 1;
+b = a ++;
+c = a;
+console.log(b); // 1
+console.log(c); // 2
+
+
 
 
 
